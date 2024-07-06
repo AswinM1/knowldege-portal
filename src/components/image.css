@@ -1,0 +1,81 @@
+.card {
+  border-radius: 1px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  width: auto;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  text-align: center;
+}
+
+.sensor-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #333; /* added dark background */
+}
+
+.sensor-gallery h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.sensor-gallery p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: white; /* changed text color to white */
+}
+
+.sensor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.sensor-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.sensor-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  background-image: url('https://picsum.photos/200/300'); /* added random placeholder image */
+}
+video{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+.ij{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100vmax;
+  object-fit: cover;
+  z-index: -1;
+}
